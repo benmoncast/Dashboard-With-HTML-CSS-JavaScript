@@ -9,7 +9,7 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    /*background: linear-gradient(#f4dbfb, #d8dbfe);*/
+    
 }
 ::-webkit-scrollbar{
     width: 10px;
@@ -29,7 +29,7 @@ body {
         'GRAD'0,
         'opsz'48
 }
-/* container start */
+
 .container {
     position: relative;
     width: 95%;
@@ -46,7 +46,7 @@ body {
     gap: 20px;
     overflow: hidden;
 }
-/* left start */
+
 .container .left {
     position: relative;
     width: 250px;
@@ -63,12 +63,12 @@ body {
     flex-direction: column;
     padding: 20px 0;
 }
-/* header start */
+
 .container .left header {
     position: relative;
     width: 100%;
 }
-/* logo start */
+
 .container .left header .logo {
     position: relative;
     margin-bottom: 15px;
@@ -93,7 +93,7 @@ body {
     display: none;
     cursor: pointer;
 }
-/* nav start */
+
 .container .left header nav {
     position: relative;
     padding-top: 20px;
