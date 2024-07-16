@@ -1,3 +1,4 @@
+var x = 10;
 let toggle = document.querySelector('.toggle');
 let left = document.querySelector('.left');
 let right = document.querySelector('.right');
@@ -22,7 +23,7 @@ searchOpen.onclick = () => {
     searchBx.classList.add('active');
 };
 searchClose.onclick = () => {
-    searchBx.classList.remove('active');
+    searchBx.classList.remove('active'):
 };
 window.onclick = (e) => {
     if (e.target == right) {
